@@ -17,7 +17,7 @@
 #define ESHOP_DSIWARE "8004"
 
 // Functions
-bool launch_eshop();
 #ifdef _3DS
-    std::string eshop_title_type(std::string);
+    bool launch_eshop();
 #endif
+std::string eshop_title_type(std::string);
